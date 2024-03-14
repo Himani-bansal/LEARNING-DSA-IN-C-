@@ -1,3 +1,6 @@
+//Display this AP - 1,3,5,7,9.. upto ‘n’ terms.  
+
+
 #include <iostream>
 using namespace std;
 
@@ -21,3 +24,6 @@ int main()
         cout << a + i * d << " ";
     }
 }
+
+
+//for the given question set a=1, d=2
