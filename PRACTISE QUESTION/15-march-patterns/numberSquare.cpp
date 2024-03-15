@@ -1,10 +1,9 @@
 /*
-Print the Solid Square  pattern
-****
-****
-****
-****
-*/
+Print the number square pattern
+1 2 3 4
+1 2 3 4
+1 2 3 4
+1 2 3 4*/
 
 #include <iostream>
 using namespace std;
@@ -21,7 +20,7 @@ int main()
         for (int j = 1; j <= n; j++)
         {
 
-            cout << "*";
+            cout << j << " ";
         }
         cout << endl;
     }
