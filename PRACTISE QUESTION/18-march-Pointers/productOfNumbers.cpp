@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-int product(int x, int y)
+int sum(int x, int y)
 {
 
-    cout << "product is" << x * y << endl;
+    cout << "sum is " << x + y << endl;
 }
 
 int main()
@@ -20,5 +20,5 @@ int main()
     int *ptr1 = &x;
     int *ptr2 = &y;
 
-    product(*ptr1, *ptr2);
+    sum(*ptr1, *ptr2);
 }
